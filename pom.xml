@@ -81,7 +81,6 @@
             <groupId>com.mechalikh</groupId>
             <artifactId>pureedgesim</artifactId>
             <version>5.0.1</version>
-            <type>jar</type>
         </dependency>
         
         <dependency>
