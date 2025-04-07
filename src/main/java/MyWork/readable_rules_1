@@ -1,0 +1,3 @@
+IF TaskLength IS High THEN High (0,9968)
+IF TaskLength IS Medium THEN High (0,9960)
+IF TaskLength IS Low THEN High (0,9975)
