@@ -44,28 +44,7 @@
                 </configuration>
             </plugin>
 
-            <!-- Shade Plugin for Creating Executable JAR -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-shade-plugin</artifactId>
-                <version>3.2.4</version>
-                <executions>
-                    <execution>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
-                        <configuration>
-                            <transformers>
-                                <transformer
-                                    implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>jade.Boot</mainClass>
-                                </transformer>
-                            </transformers>
-                        </configuration>
-                    </execution>
-                </executions>
-            </plugin>
+            
 
             
         </plugins>
@@ -78,15 +57,9 @@
     </repositories>
     <dependencies>
         <dependency>
-            <groupId>com.mechalikh</groupId>
-            <artifactId>pureedgesim</artifactId>
-            <version>5.0.1</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>com.github.pcingola</groupId>
-            <artifactId>jFuzzyLogic</artifactId>
-            <version>master</version>
-        </dependency>
+	    <groupId>com.github.vinixnan</groupId>
+	    <artifactId>PureEdgeSim</artifactId>
+	    <version>3.3p</version>
+	</dependency>
     </dependencies>
 </project>
